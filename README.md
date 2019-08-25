@@ -8,7 +8,7 @@
 This project is developed  in Swift to show the user own resume .
 Below is screenshot how app looks:
 
-<img height="480" src="https://github.com/navneet1990/Resume/blob/master/Resume/Resources/DemoScreenshot/screenShot.png" alt="demo of resume"> <img align="center" height="480" src="https://github.com/navneet1990/Resume/blob/master/Resume/Resources/DemoScreenshot/screenshot2.png" alt="demo of resume">
+<img height="480" src="https://github.com/navneet1990/Resume/blob/master/Resume/Resources/DemoScreenshot/screenShot.png" alt="demo of resume">        <img height="480" src="https://github.com/navneet1990/Resume/blob/master/Resume/Resources/DemoScreenshot/screenshot2.png" alt="demo of resume">
 
 ## Table of Contents
 
