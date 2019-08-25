@@ -6,7 +6,7 @@
 [![Xcode](https://img.shields.io/badge/Xcode-10.1-blue.svg)](https://developer.apple.com/xcode)
 
 This project is developed  in Swift to show the user own resume .
-The resume data is maintained in a JSON format following resume JSON structure.
+Below is screenshot how app looks:
 
 <img height="480" src="https://github.com/navneet1990/Resume/blob/master/Resume/Resources/DemoScreenshot/screenShot.png" alt="demo of resume">
 
