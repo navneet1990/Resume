@@ -8,7 +8,7 @@
 This project is developed  in Swift to show the user own resume .
 The resume data is maintained in a JSON format following resume JSON structure.
 
-<img height="480" src="Resume/blob/master/Resume/Resources/DemoScreenshot/screenShot.png" alt="demo of resume">
+<img height="480" src="https://github.com/navneet1990/Resume/blob/master/Resume/Resources/DemoScreenshot/screenShot.png" alt="demo of resume">
 
 ## Table of Contents
 
