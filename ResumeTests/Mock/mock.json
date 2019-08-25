@@ -1,0 +1,123 @@
+{
+  "profile": {
+    "name": "Mock Data",
+    "title": "UI Testing",
+    "email": "test@gmail.com",
+    "phone": "1234567890",
+    "location": {
+      "address": "Plaze del sol",
+      "postalCode": "323122",
+      "city": "Guadalajara",
+      "country": "Mexico",
+      "region": "Jalisco"
+    }
+  },
+  "summary": ["Mock summary","A brief statement or account of the main points of something.", "I created this summary chart as a way to visualize a few key iOS device properties."],
+  "profiles": [{
+    "network": "Linkedin",
+    "username": "Mock",
+    "url": "https://www.linkedin.com"
+  },{
+    "network": "Github",
+    "username" : "Moch Github",
+    "url": "https://github.com"
+  },
+  {
+    "network": "StackOverflow",
+    "username": "Mock",
+    "url": "https://www.stackoverflow.com"
+  }
+  ]
+  ,
+  "experience": [{
+    "company": "Mock company1",
+    "position": "developer",
+    "location": "Guadajara, Mexico",
+    "startDate": "07/2016",
+    "endDate": "current",
+    "summary": "mock summary",
+    "highlights": ["Highlight1", "Highlight2"]
+  },
+  {
+    "company": "Mock company2",
+    "position": "developer",
+    "location": "Guadajara, Mexico",
+    "startDate": "07/2013",
+    "endDate": "current",
+    "summary": "mock summary",
+    "highlights": ["Highlight1", "Highlight2"]
+  },
+  {
+    "company": "Mock company3",
+    "position": "developer",
+    "location": "Guadajara, Mexico",
+    "startDate": "07/2012",
+    "endDate": "current",
+    "summary": "mock summary",
+    "highlights": ["Highlight1", "Highlight2"]
+  },
+  {
+    "company": "Mock company4",
+    "position": "developer",
+    "location": "Guadajara, Mexico",
+    "startDate": "07/2016",
+    "endDate": "current",
+    "summary": "mock summary",
+    "highlights": ["Highlight1", "Highlight2"]
+  }
+  
+  ],
+  "volunteer": [ "International Experience","Participated in talent meetups/concerts",
+    "Vounteer Applications for company interest",
+    "Created advance learning material for everyone on Github",
+    "Being part of the Calidad de Vida committee"
+  ],
+  "education":[ {
+    "school": "University",
+    "area": "Computer Science",
+    "category": "Bachelor Technology",
+    "startDate": "07/2010",
+    "endDate": "07/2014",
+    "cgpa": 7.6
+  },
+  {
+    "school": "School",
+    "area": "Information Technology",
+    "category": "Bachelor Technology",
+    "startDate": "07/2010",
+    "endDate": "07/2014",
+    "cgpa": 8
+  }
+  
+  ],
+  
+  "skills": [
+    { "name": "Languages",
+      "keywords": [
+        "Objective-C",
+        "Swift  "
+      ]
+    }
+  ],
+  "languages": [{
+    "language": "English",
+    "level": "Expert",
+    "rating" : 5
+    },
+    {
+    "language": "Spanish",
+    "level": "Intermediate",
+    "rating" : 3
+    },{
+    "language": "German",
+    "level": "Elementary",
+    "rating" : 1
+    },
+    {
+    "language": "French",
+    "level": "",
+    "rating" : 0
+    }
+  ]
+  
+}
