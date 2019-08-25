@@ -5,8 +5,8 @@
 [![Swift](https://img.shields.io/badge/Swift-4.2-orange.svg)](https://swift.org)
 [![Xcode](https://img.shields.io/badge/Xcode-10.0-blue.svg)](https://developer.apple.com/xcode)
 
-This project is developed  in Swift to show the resume in iOS.
-The resume is maintained in a JSON format following resume JSON structure.
+This project is developed  in Swift to show the user own resume .
+The resume data is maintained in a JSON format following resume JSON structure.
 
 ## Table of Contents
 
@@ -22,7 +22,7 @@ The resume is maintained in a JSON format following resume JSON structure.
     - [x] Use autolayouts programatically.
 - [x] UI and Unit testing. 89.6%  test coverage
     - [x] Testing using mocking and dependency injection.
-- [x] Fetch a remote JSON from server and decode the data JSON Data.
+- [x] API hosted on gist server in JSON format.
 - [x] Offline support by storing the JSON data in persistant store using Using Defaults
 
 ## Requirements
