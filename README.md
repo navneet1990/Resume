@@ -30,7 +30,7 @@ The resume data is maintained in a JSON format following resume JSON structure.
 
 - iOS 12+
 - Xcode 10+
-- Swift 4.2+
+- Swift 4.2
 
 ## Resume Contents:
 -  Profile basic info.
