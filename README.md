@@ -12,8 +12,7 @@ The resume data is maintained in a JSON format following resume JSON structure.
 
 - [Features](#features)
 - [Requirements](#requirements)
-- [Resume Contents](#contents)
-- [License](#license)
+- [Resume Contents](#resume contents)
 
 ## Features
 
