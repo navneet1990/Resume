@@ -19,8 +19,9 @@ The resume data is maintained in a JSON format following resume JSON structure.
 ## Features
 
 - [x] Structure based upon MVVM architecture and Protocol oriented programming.
-- [x] 100% programatically developed UI and Universal device support.
+- [x] 100% programatically developed UI and Universal device(iPhone/iPad) support.
     - [x] Use autolayouts programatically.
+    - [x] Landscape and Potrait orientation support.
 - [x] UI and Unit testing. 89.6%  test coverage
     - [x] Testing using mocking and dependency injection.
 - [x] API hosted on gist server in JSON format.
