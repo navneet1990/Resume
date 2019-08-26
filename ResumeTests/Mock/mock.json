@@ -4,6 +4,7 @@
     "title": "UI Testing",
     "email": "test@gmail.com",
     "phone": "1234567890",
+    "image": "www.image.com",
     "location": {
       "address": "Plaze del sol",
       "postalCode": "323122",

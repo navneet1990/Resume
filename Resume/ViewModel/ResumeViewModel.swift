@@ -40,11 +40,14 @@ final class ResumeViewModal : ViewModelProtocol{
   private var errorDetails : ErrorResult?{
     didSet{
       shouldEnableRefresh.value = true
-      guard let title = errorDetails?.title, let description = errorDetails?.description else { return }
-      activityIndicatorDetails.value = (false,description )
+      guard let title = errorDetails?.title,
+        let description = errorDetails?.description else { return }
       showAlert.value = SingleButtonAlert(title: title, message: description,
                                           action: AlertAction(buttonTitle: "Ok",
                                                               handler: nil))
+      if  resumeDetails == nil {
+        activityIndicatorDetails.value = (false,description )
+      }
     }
   }
   //MARK:- Init Method
@@ -58,20 +61,20 @@ final class ResumeViewModal : ViewModelProtocol{
       activityIndicatorDetails.value = (true , "Loading...")
     }
     shouldEnableRefresh.value = false
-    fetchResume()
+    fetchFromNetwork()
   }
   /* Fetch Data
    * Checking if there is data available in Persistant store
-      and is not test case running
+   and is not test case running
    * Otherwise fetch from server
- **/
+   **/
   func fetchResume()  {
     
     guard !isTestCaseRunning(),
       let data = UserDefaults.standard.resume,
       let decodedResume = try? JSONDecoder().decode(Resume.self, from: data) else {
-      fetchFromNetwork()
-      return
+        fetchFromNetwork()
+        return
     }
     resumeDetails = decodedResume
   }

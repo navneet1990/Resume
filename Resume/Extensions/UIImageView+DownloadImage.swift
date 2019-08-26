@@ -35,10 +35,17 @@ extension UIImageView : DownloadImage{
       }
       }.resume()
   }
-  
   func downloadedImage(from link: String?,
                        contentMode mode: UIView.ContentMode = .scaleAspectFit) {
+    ///Check if test case running
+    if isTestCaseRunning(){
+      image = Constants.Mock.image
+      return
+    }
+    
     guard let link = link ,let url = URL(string: link) else { return }
     downloaded(from: url, contentMode: mode)
   }
 }
+
+extension UIImageView : TestingEnvironment{}
